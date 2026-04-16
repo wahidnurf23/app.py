@@ -8,7 +8,7 @@ st.set_page_config(page_title="Tracking Pengiriman Puskesmas", layout="wide")
 st.title("🚚 Monitoring Pengiriman Barang")
 
 # 1. Link CSV dari Google Sheets (Ganti dengan link kamu)
-SHEET_URL = "https://docs.google.com/spreadsheets/d/e/XXXXX/pub?output=csv"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRVDjIO5F1PswXcZv8mWHlf6GdeI84mN-zlTk-lJwxFuXCz-MFpkh3ZD33j95wb-_DXDFzajXdYE4cL/pub?output=csv"
 
 # Fungsi untuk mengambil data
 def load_data():
